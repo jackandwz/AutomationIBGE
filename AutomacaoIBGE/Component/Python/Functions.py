@@ -7,7 +7,6 @@ def UpToLower(strSeccao,strDivisao,strGrupo,strClasse,strSubClasse):
     strClasse = strClasse.lower()
     strSubClasse = strSubClasse.lower()
     return strSeccao,strDivisao,strGrupo,strClasse,strSubClasse
-
 def CodCorrections(strCodDivisao,strCodGrupo,strCodClasse,strCodSubClasse):
     strCodDivisao = strCodDivisao.replace(".","").replace("-","").replace("/","")
     strCodGrupo = strCodGrupo.replace(".","").replace("-","").replace("/","")
